@@ -1,0 +1,12 @@
+name: Django App CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  AWS_REGION: your_aws_region
+  ECR_REPOSITORY: your_ecr_repository
+  EB_APPLICATION: your_eb_application
+  EB_ENVIRONMENT: your_eb_environment

@@ -57,3 +57,8 @@ docker-compose build
 
 2. To run the docker, please use the following command: <br />
 docker-compose up
+
+## CI/CD Pipeline
+
+Unfortunately, I do not have an AWS Console account. I do not want to create a personal account. So I cannot proceed with this step. But 
+I have included the pipeline.yaml file that is necessary for proceeding with this step.
