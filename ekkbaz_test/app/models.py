@@ -16,4 +16,4 @@ data = [
 class BusinessData:
 
     def getBusinesses(self):
-        return [{j: i[j]} for i in data for j in i.keys() if i[j] <= 2000]
+        return [{"name": j, "distance": i[j]} for i in data for j in i.keys() if i[j] <= 2000]

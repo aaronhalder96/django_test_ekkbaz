@@ -42,10 +42,12 @@ Sample Output   <br />
 {   <br />
     "businesses": [   <br />
         {   <br />
-            "Google": 500   <br />
+            "name": "Google",   <br />
+            "distance": 500   <br />
         },   <br />
         {   <br />
-            "Netflix": 1948   <br />
+            "name": "Netflix",   <br />
+            "distance": 1948   <br />
         }   <br />
     ]   <br />
 }
