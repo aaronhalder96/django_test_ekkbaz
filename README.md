@@ -19,7 +19,7 @@ Sample JSON data    <br />
     "password": "admin123"  <br />
 }
 
-2. GET http://127.0.0.1:8000/api/token/ <br />
+2. POST http://127.0.0.1:8000/api/token/ <br />
 Returns 2 items: <br />
 refresh: value of the token after the refresh button is clicked <br />
 access: value of the token currently in use <br />
